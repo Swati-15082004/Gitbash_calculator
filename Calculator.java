@@ -17,6 +17,13 @@
     float division(float operand_1, float operand_2){
         return(operand_1 / operand_2);
     }
+    float Square(float operand_1, float operand_2){
+        return(operand_1 / operand_2);
+    }
+    float cube(float operand_1, float operand_2){
+        return(operand_1 / operand_2);
+    }
+
  public static void main(String[] args)
  {
   float operand_1 =10;
@@ -35,6 +42,12 @@
 
   float div_result = calc.division(operand_1, operand_2);
   System.out.println("Result of division is:"+ div_result);
+  
+  float Sqr_result = calc.division(operand_1, operand_2);
+  System.out.println("Result of division is:"+ Sqr_result);
+
+  float cube_result = calc.division(operand_1, operand_2);
+  System.out.println("Result of division is:"+ cube_result);
 
 
  }
