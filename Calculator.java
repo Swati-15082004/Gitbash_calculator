@@ -44,10 +44,10 @@
   System.out.println("Result of division is:"+ div_result);
   
   float Sqr_result = calc.division(operand_1, operand_2);
-  System.out.println("Result of division is:"+ Sqr_result);
+  System.out.println("Result of square is:"+ Sqr_result);
 
   float cube_result = calc.division(operand_1, operand_2);
-  System.out.println("Result of division is:"+ cube_result);
+  System.out.println("Result of cube is:"+ cube_result);
 
 
  }
